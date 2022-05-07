@@ -116,16 +116,10 @@
 }
 
 .quote-text {
-    padding-top: 100px;
-    padding: 0 400px;
-    border: solid red 2px;
+    padding-top: 200px;
     text-align: center;
-    min-width: 700px;
 }
 
 .quote-author {
-    padding: 0 600px;
-    border: solid red 2px;
-    text-align: right;
-    min-width: 700px;
+    text-align: center;
 }
