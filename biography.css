@@ -56,7 +56,6 @@
     flex-direction: column;
     margin: auto 0;
     min-width: 350px;
-    border: solid red 2px;
 }
 
 .prev-left button {
@@ -85,9 +84,11 @@
 
 .content {
     display: flex;
+    flex-wrap: wrap;
     padding: 0 80px;
     justify-content: space-evenly;
     gap: 80px;
+    margin-bottom: 40px;
 }
 
 .ball-moment img {
@@ -99,5 +100,32 @@
 
 .ball-moment p {
     text-align: center;
-    
+}
+
+.quote {
+    background-image: url("./images/iverson.jpg");
+    object-fit: cover;
+    height: 500px;
+    width: auto;
+    color: white;
+    font-size: 50px;
+    font-style: italic;
+    font-weight: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.quote-text {
+    padding-top: 100px;
+    padding: 0 400px;
+    border: solid red 2px;
+    text-align: center;
+    min-width: 700px;
+}
+
+.quote-author {
+    padding: 0 600px;
+    border: solid red 2px;
+    text-align: right;
+    min-width: 700px;
 }
