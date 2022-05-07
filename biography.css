@@ -1,6 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+
 * {
     margin: 0;
     box-sizing: border-box;
+    font-family: 'Oswald', sans-serif
 }
 
 .header {
@@ -28,6 +31,7 @@
     padding: 0;
     list-style: none;
     gap: 30px;
+    align-items: center;
 }
 
 @media screen and (max-width: 440px) {
@@ -52,7 +56,7 @@
     flex-direction: column;
     margin: auto 0;
     min-width: 350px;
-    min-height: 500px;
+    border: solid red 2px;
 }
 
 .prev-left button {
@@ -72,4 +76,28 @@
     color: #cacdd2;
     flex: 1 0 auto;
     margin-top: 20px;
+}
+
+.ball-header {
+    text-align: center;
+    margin: 50px 0;
+}
+
+.content {
+    display: flex;
+    padding: 0 80px;
+    justify-content: space-evenly;
+    gap: 80px;
+}
+
+.ball-moment img {
+    width: 400px;
+    height: 300px;
+    border-radius: 30px;
+    object-fit: cover;
+}
+
+.ball-moment p {
+    text-align: center;
+    
 }
