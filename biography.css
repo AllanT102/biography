@@ -64,6 +64,7 @@
    background-color: #3882F6;
    border-radius: 8px;
    margin-top: 20px;
+   border: solid white;
 }
 
 .prev-left h1 {
@@ -122,4 +123,36 @@
 
 .quote-author {
     text-align: center;
+}
+
+.footer {
+    background-color: #3882F6;
+    width: 800px;
+    height: 100px;
+    margin: 60px auto;
+    border-radius: 8px;
+    display: flex;
+    gap: 125px;
+    color: white;
+    padding: 0 100px;
+    align-items: center;
+}
+
+.question {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+
+.footer button {
+    height: 50px;
+    width: 100px;
+    border-radius: 8px;
+    background-color: #3882F6;
+    border: solid white;
+}
+
+.footer-left {
+    display: flex;
+    flex-direction: column;
 }
